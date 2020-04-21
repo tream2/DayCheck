@@ -1,0 +1,13 @@
+﻿name: DayCheck
+author: tream
+main: tream\DayCheck
+api: [2.0.0, 3.0.0-ALPHA3]
+version: 1
+
+commands:
+  출석:
+    permission: DayCheck.command
+
+permissions:
+          ChooseTeam.command:
+            default: true
